@@ -1,0 +1,1358 @@
+html,body
+{
+	margin:0;
+	padding:0;
+}
+
+header
+{
+	padding:20px;
+	text-align:center;
+	position:relative;
+}
+
+.btnlink-1
+{
+		margin-left:2px;
+		margin-right:2px;
+}
+
+.logo2
+{
+	background-size:cover;
+	height:130px;
+	width:130px;
+	display:none;
+	position:relative;
+	margin:0px auto;
+}
+
+.logo
+{
+	background-size:cover;
+	height:130px;
+	width:130px;
+	display:block;
+	position:relative;
+	margin-right:15px;
+}
+
+.slideshow
+{
+	background-size:cover;
+	width:68%;
+	height:450px;
+	margin-top:30px;
+	box-shadow:rgba(0,0,0,0.25) 0px 4px 10px;
+	overflow:hidden;
+	border-bottom:solid 5px #ffffff;
+	border-top:solid 5px #eee;
+}
+
+.slideshow2
+{
+	
+	width:100%;
+	position:relative;
+	float:left;
+}
+
+
+.schoolcalendar
+{
+	font:14px Century Gothic;
+}
+
+.inquiry_header
+{
+	background:#e7e1e1;
+	width:100%;
+	height:10px;
+	//height:0px;
+}
+
+.red_class2
+{
+	display:block;
+	background:red;
+	padding:5px;
+	font-size:20px;
+	color:white;
+	position:relative;
+}
+
+
+.click_announcement
+{
+	display:block;
+	background:red;
+	padding:15px;
+	font-size:20px;
+	color:white;
+	width:30%;
+	text-align:center;
+	position:relative;
+	margin-top:2%;
+}
+
+.click_announcement:hover
+{
+	-webkit-transition:250ms;
+	display:block;
+	background:#ba0e0e;
+	padding:15px;
+	font-size:20px;
+	color:white;
+	width:30%;
+	position:relative;
+}
+
+.services
+{
+	width:100%;
+	margin:0px auto;
+	height:250px;
+	text-align:center;
+	position:relative;
+}
+
+.department_class
+{
+	display:inline-block;
+	padding:20px;
+	margin:20px;
+	padding-bottom:45px;
+	border-bottom:solid 3px #ffffff;
+}
+
+.btn2
+{
+	display:block;
+	background:#eee;
+	color:494547;
+	height:25px;
+	width:10%;
+	text-align:center;
+	padding:10px;
+	line-height:25px;
+	margin:0px auto;
+	margin-bottom:10px;
+}
+
+.btn2:hover
+{
+	display:block;
+	background:#ffcc00;
+	color:494547;
+	height:25px;
+	width:10%;
+	text-align:center;
+	padding:10px;
+	line-height:25px;
+}
+
+
+.services_class
+{
+	display:inline-block;
+	padding:20px;
+	margin:20px;
+	padding-bottom:45px;
+	border-bottom:solid 3px #ffffff;
+}
+
+.services_class:hover
+{
+	-webkit-transition:250ms;
+	display:inline-block;
+	border-bottom:solid 3px red;
+}
+
+.services_menu
+{
+	//background:#ffcc00;
+	//color:white;
+	margin:0px auto;
+	text-align:center;
+}
+
+.dept_menu_logo
+{
+	border-radius:120px;
+	background-size:cover;
+	height:120px;
+	width:120px;
+	//border:solid 2px #d52626;
+}
+
+
+.service_menu_logo
+{
+	border-radius:120px;
+	background-size:cover;
+	height:120px;
+	width:120px;
+	//border:solid 2px #d52626;
+}
+
+.service_menu_logo:hover
+{
+	border-radius:120px;
+	background-size:cover;
+	height:120px;
+	width:120px;
+	//border:solid 2px #d52626;
+}
+
+.services_title
+{
+	text-transform:uppercase;
+	letter-spacing:0.01em;
+	font:bold 20px Century Gothic;
+	text-align:center;
+	//padding-bottom:15px;
+	//border-bottom:solid 1px #ffcc00;
+}
+
+.services_subtitle
+{
+	font:12px Century Gothic;
+	height:50px;
+}
+
+
+
+
+
+.content1
+{
+
+	margin-left:30px;
+}
+
+.label_date
+{
+	background:#ffffff;
+	font:bold 16px Century Gothic;
+	color:black;
+	display:block;
+	width:170px;
+	text-align:center;
+	padding:15px;
+	float:left;
+}
+
+.label_day
+{
+	background:#ffcc00;
+	font:16px Century Gothic;
+	display:block;
+	width:50px;
+	padding:15px;
+	float:left;
+	text-align:center;
+}
+
+.label_day2
+{
+	background:#302121;
+	font:20px Century Gothic;
+	display:block;
+	width:50px;
+	padding:15px;
+	float:left;
+	text-align:center;
+}
+
+.label_event
+{
+	font:16px Century Gothic;
+	padding:15px;
+	display:block;
+	float:left;
+}
+
+.label_event2
+{
+	font:16px Century Gothic;
+	padding:15px;
+	display:block;
+	float:left;
+	background:#302121;
+}
+
+
+.label_1
+{
+	font:40px Century Gothic;
+	padding-top:15px;
+	padding-bottom:15px;
+	//background:red;
+}
+
+.label_1_1
+{
+	font:40px Century Gothic;
+	background:red;
+	color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.label_1_sub
+{
+	font:20px Century Gothic;
+	color:#494547;
+	margin:0px auto;
+	position:relative;
+	top:-20px;
+}
+
+.label_1_sub_2
+{
+	background:#302121;
+	font:20px Century Gothic;
+	margin:0px auto;
+	color:white;
+	width:75%;
+	position:relative;
+	text-indent:2%;
+	padding:15px;
+	//border-top-left-radius:10px;
+	//border-top-right-radius:10px;
+}
+
+.label_2
+{
+	font:50px Century Gothic;
+	background:red;
+	color:white;
+	width:100%;
+	padding-bottom:10px;
+	padding-top:10px;
+	display:block;
+	text-indent:10%;
+}
+
+.label_3
+{
+	font:40px Century Gothic;
+	width:100%;
+	padding-bottom:10px;
+	padding-top:10px;
+	display:block;
+	text-align:center;
+	border-bottom:solid 2px red;
+}
+
+.label_3_1
+{
+	font:40px Century Gothic;
+	width:100%;
+	padding-bottom:10px;
+	padding-top:10px;
+	display:block;
+	text-align:center;
+}
+
+
+.label_4
+{
+	font:40px Century Gothic;
+}
+
+.label_5
+{
+	font:40px Century Gothic;
+	width:100%;
+	padding-bottom:10px;
+	padding-top:10px;
+	display:block;
+	background:#ffe2a2;
+	text-align:center;
+}
+
+.label_6_1
+{
+	font:50px Century Gothic;
+	background:red;
+	color:white;
+	width:100%;
+	padding-bottom:10px;
+	padding-top:10px;
+	display:block;
+	text-align:center;
+}
+
+.section_1
+{
+	height:1050px;
+	margin-top:150px;
+	display:block;
+	background:#;
+	position:relative;
+	//color:white;
+	//background:#ba0e0e;
+	padding-top:50px;
+	text-align:center;
+}
+
+.section_2
+{
+	height:400px;
+	margin-top:150px;
+	display:block;
+	border-top:solid 5px #eee;
+	border-bottom:solid 5px #eee;
+}
+
+.section_2_2
+{
+	height:400px;
+	margin-top:150px;
+	display:block;
+	
+	border-bottom:solid 5px #eee;
+	background:url('../../media/img/tcubldg2.jpg') 50%;
+}
+
+.section_2_1
+{
+	height:400px;
+	color:white;
+	margin-top:50px;
+	display:block;
+	border-top:solid 10px #eee;
+	border-bottom:solid 10px #e7e1e1;
+	background:url('../../media/img/tcubldg.jpg') 50%;
+}
+
+.section_3
+{
+	height:350px;
+	margin-top:50px;
+	display:block;
+}
+
+.section_3_1
+{
+	height:350px;
+	margin-top:50px;
+	display:block;
+}
+
+
+.btn1
+{
+	text-decoration:none;
+	display:block;
+	background:red;
+	color:white;
+	height:50px;
+	width:150px;
+	border-radius:10px;
+	font:15px Century Gothic;
+	line-height:50px;
+	margin:0px auto;
+	text-align:center;
+}
+
+.btn1:hover
+{
+	-webkit-transition:250ms;
+	text-decoration:none;
+	display:block;
+	background:#ba0e0e;
+	color:white;
+	height:50px;
+	width:150px;
+	border-radius:10px;
+	font:15px Century Gothic;
+	line-height:50px;
+	margin:0px auto;
+}
+
+.img_mayormessage
+{
+	background-size:cover;
+	width:75%;
+	margin:0px auto;
+	border-top:solid 15px #eee;
+	border-bottom:solid 15px red;
+	box-shadow:0px 1px 3px #eee;
+}
+
+.detail_title_1
+{
+	font:20px Century Gothic;
+	
+}
+
+.detail_title_1sub
+{
+	font:bold 20px Century Gothic;
+	margin-left:25px;
+}
+
+.event_pic
+{
+	height:370px;
+	width:340px;
+	box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+	border-radius:5px;
+	background:#ffffff;
+	margin-left:30px;
+	margin-bottom:50px;
+	display:inline-block;
+	text-align:center;
+}
+
+.event_pic:hover
+{
+	-webkit-transition:250ms;
+	height:370px;
+	width:340px;
+	box-shadow:inset 1px 3px 5px gray;
+	border-radius:5px;
+	background:#ffffff;
+	margin-left:30px;
+	margin-bottom:50px;
+	display:inline-block;
+	text-align:center;
+}
+
+.event_pic_here
+{
+	background-size:cover;
+	width:100%;
+	height:250px;
+	margin-bottom:17px;
+}
+
+.label_6
+{
+	font:bold 25px Century Gothic;
+	color:#332424;
+	width:100%;
+	text-transform:uppercase;
+}
+
+.album_desc
+{
+	font:18px Century Gothic;
+	color:#332424;
+}
+
+
+
+
+.menu_icon
+{
+	-webkit-transform:rotate(90deg);
+	font:18px Century Gothic;
+	float:right;
+	color:white;
+}
+
+.handle
+{
+	background:#302121;
+	width:100%;
+	color:white;
+	padding:12px 8px;
+	display:none;
+	cursor:pointer;
+	box-sizing:border-box;
+	font:bold 16px Century Gothic;
+	text-align:center;
+}
+
+
+.handle:hover
+{
+	-webkit-transition:250ms;
+	background:#ba0e0e;
+}
+
+
+
+.menu_icon
+{
+	-webkit-transform:rotate(90deg);
+	font:30px Century Gothic;
+	color:white;
+	line-height:30px;
+	letter-spacing:1px;
+	padding:15px;
+}
+
+.down_slide_next
+{
+	
+	font:35px Century Gothic;
+	background:#494547;
+	opacity:0.3;
+	color:white;
+	height:100px;
+	line-height:100px;
+	width:10%;
+}
+
+.down_slide_next:hover
+{
+	font:35px Century Gothic;
+	background:#494547;
+	opacity:0.5;
+	color:white;
+	height:100px;
+	line-height:100px;
+	width:10%;
+}
+
+.up_slide_previous
+{
+	font:35px Century Gothic;
+	background:#494547;
+	opacity:0.3;
+	color:white;
+	height:200px;
+	line-height:100px;
+	width:10%;
+	position:relative;
+}
+
+.up_slide_previous:hover
+{
+	font:35px Century Gothic;
+	background:#494547;
+	opacity:0.5;
+	color:white;
+	height:200px;
+	line-height:100px;
+	width:10%;
+	position:relative;
+}
+
+.nav_slideshow
+{
+	position:absolute;
+	-webkit-transform:rotate(90deg);
+	z-index:5;
+}
+
+.nav_class
+{
+	margin-top:34%;
+	margin-left:5%;
+}
+
+.text1
+{
+	font:bold 45px Century Gothic;
+	text-transform:uppercase;
+	color:red;
+}
+
+.text2
+{
+	font:bold 45px Century Gothic;
+	color:#000000;
+	letter-spacing:0.1em;
+	text-transform:uppercase;
+}
+
+.text1_small
+{
+	padding-left:50px;
+	font:bold 16px Century Gothic;
+	color:red;
+}
+
+.text2_small
+{
+	font:16px Century Gothic;
+	color:white;
+}
+
+.text1_superscript
+{
+	font:12px Century Gothic;
+	color:white;
+}
+
+
+.logo_1
+{
+	height:40px;
+	width:40px;
+	margin:0.65%;
+	margin-top:5px;
+}
+
+.series_logos
+{
+	text-align:center;
+	position:relative;
+	margin:0px auto;
+	background:#302121;
+	//background:#000000;
+	padding-top:5px;
+}
+
+.footer_center
+{
+	color:#ffffff;
+	margin:0px auto;
+	text-transform:uppercase;
+	letter-spacing:0.2em;
+	font:11px Century Gothic;
+	padding-bottom:10px;
+}
+
+.fbicon
+{
+	display:block;
+	border-radius:40px;
+	height:40px;
+	width:40px;
+	color:#000000;
+	background:white;
+	font:bold 40px Century Gothic;
+	text-align:center;
+}
+
+.fbicon:hover
+{
+	-webkit-transition:250ms;
+	display:block;
+	border-radius:40px;
+	height:40px;
+	width:40px;
+	color:#ffffff;
+	background:#3498db;
+	font:bold 40px Century Gothic;
+	text-align:center;
+}
+
+.divider
+{
+	color:#e7e1e1;
+	float:right;
+	margin-right:10px;
+	font:30px Century Gothic;
+}
+
+.socialmedia
+{
+	float:right;
+	margin-right:50px;
+}
+
+.tcu
+{
+	font:15px Century Gothic;
+	text-transform:uppercase;
+	letter-spacing:0.4em;
+	//margin-left:8%;
+	margin-top:-10px;
+}
+
+.red_class
+{
+	height:45px;
+	width:100%;
+	background:#d52626;
+}
+
+
+.para1
+{
+	font:20px Century Gothic;
+}
+
+.para1_1
+{
+	font:14px Century Gothic;
+	text-align:center;
+}
+
+
+.para2
+{
+	font:17px Century Gothic;
+	border:solid 1px #e7e1e1;
+	width:75%;
+	padding:14px;
+	margin:0px auto;
+}
+
+.para3
+{
+	font:16px Century Gothic;
+	margin-left:20%;
+	margin-right:20%;
+	display:block;
+}
+
+.para4
+{
+	font:16px Century Gothic;
+	padding:15px;
+}
+
+.course_title
+{
+	font:bold 17px Century Gothic;
+	color:494547;
+	margin-top:25px;
+	margin-bottom:20px;
+	padding-bottom:20px;
+	height:50px;
+}
+
+.college_subtitle
+{
+	font:15px Century Gothic;
+	text-align:left;
+}
+
+.college
+{
+	float:left;
+	width:28%;
+	height:670px;
+	margin:25px;
+}
+
+.college_logo
+{
+	background-size:cover;
+	height:220px;
+	width:220px;
+}
+
+.course_here
+{
+	text-align:left;
+	line-height:20px;
+	font-size:18px;
+}
+
+.college_menu
+{
+	width:75%;
+	margin:0px auto;
+	text-align:center;
+}
+
+.link1
+{
+	color:red;
+	font:bold 14px Century Gothic;
+}
+
+.link1:hover
+{
+	color:red;
+	font:underline 14px Century Gothic;
+}
+
+.hidden_mvp
+{
+	display:none;
+}
+	
+.mvp
+{
+	font:16px Century Gothic;
+	color:white;
+	text-transform:uppercase;
+	letter-spacing:0.0001em;
+	width:300px;
+	text-align:center;
+	padding:20px;
+}
+
+.mvp_title
+{
+	font-size:35px;
+}
+
+.mvp_wrapper
+{
+	margin:0px auto;
+	width:100%;
+}	
+
+.footer_note
+{
+	background:#352c2c;
+	//background:#302121;
+	height:250px;
+	width:100%;
+}
+
+.footer_bottom_text
+{
+	padding-top:30px;
+	background:black;
+	width:100%;
+	height:55px;
+}
+
+footer
+{
+	position:relative;
+}
+
+.hideslideshow
+{
+	background:#e7e1e1;
+	color:white;
+	width:95%;
+	font:20px Century Gothic;
+	display:none;
+	cursor:pointer;
+}
+
+
+@media screen and (max-width:1230px)
+{
+	.section_2_2
+	{
+		height:500px;
+	}	
+}
+
+@media screen and (max-width:1190px)
+{
+	
+	.mvp_title
+	{
+		font-size:25px;
+	}
+	
+	.mvp
+	{
+		width:220px;
+		font-size:14px;
+	}
+	
+	.services
+	{
+		height:450px;
+	}
+	
+	.section_1
+	{
+		height:1450px;
+	}
+	
+	.container
+	{
+		height:2200px;
+	}
+	
+	.img_mayormessage
+	{
+		width:100%;
+	}
+
+}
+
+@media screen and (max-width:1120px)
+{
+	.services
+	{
+		height:750px;
+	}
+	
+	.container
+	{
+		height:2500px;
+	}	
+}
+
+
+@media screen and (max-width:985px)
+{
+
+
+
+	.inquiry_header
+	{
+		display:none;
+	}
+	
+	.red_class2
+	{
+		display:none;	
+	}
+	
+	.mvp_title
+	{
+		font-size:20px;
+	}
+	
+	.mvp
+	{
+		width:160px;
+		font-size:14px;
+	}
+	
+	.slideshow
+	{
+		width:100%;
+	}
+	
+	.click_announcement
+	{
+		display:block;
+		background:red;
+		padding:15px;
+		font-size:16px;
+		color:white;
+		width:40%;
+	}
+
+	.click_announcement:hover
+	{
+		-webkit-transition:250ms;
+		display:block;
+		background:#ba0e0e;
+		padding:15px;
+		font-size:16px;
+		color:white;	
+		width:40%;
+	}
+	
+	
+
+}
+
+
+@media screen and (max-width:780px)
+{
+	.text1
+	{
+		font:bold 35px Century Gothic;
+		line-height:10px;
+	}
+	
+	.logo
+	{	
+		background-size:cover;
+		height:150px;
+		width:150px;
+		position:relative;
+		display:block;
+		margin:0px auto;
+		margin-bottom:15px;
+	}
+	
+	.text2
+	{
+		line-height:30px;
+	}
+	
+	.tcu
+	{
+		font-size:12px;
+		line-height:30px;
+	}
+	
+	.container
+	{
+		height:2500px;
+	}
+	
+	.section_1
+	{
+		height:1500px;
+	}
+	
+	.label_3_1
+	{
+		font-size:30px;
+		text-align:center;
+	}
+	
+}
+
+@media screen and (max-width:750px)
+{
+	
+	.section_1
+	{
+		height:2700px;
+	}
+	
+}
+
+
+@media screen and (max-width:650px)
+{
+	.mvp_title
+	{
+		font-size:20px;
+	}
+	
+	.mvp
+	{
+		width:120px;
+		font-size:14px;
+	}	
+}
+
+@media screen and (max-width:580px)
+{
+	.logo2
+	{
+		display:block;
+		margin-bottom:10px;
+	}
+	
+	.label_2
+	{
+		font:35px Century Gothic;
+		background:red;
+		color:white;
+		width:100%;
+		padding-bottom:10px;
+		padding-top:10px;
+		display:block;
+		text-align:center;
+	}
+	
+	.hidden_logo
+	{	
+		display:none;
+	} 
+	
+	.mvp_text
+	{
+		display:none;
+	}
+	
+	.showing_slideshow
+	{
+		max-height:0;
+	}
+
+	.hideslideshow
+	{
+		display:block;
+		margin-top:5px;
+		padding-top:5px;
+		padding-bottom:5px;
+		margin-bottom:5px;
+		color:#494547;
+	}
+	
+	
+	.hidden_mvp
+	{
+		padding:15px;
+		font:15px Century Gothic;
+		color:white;
+		text-align:center;
+		display:block;
+	}
+	
+	.click_announcement
+	{
+		display:block;
+		background:red;
+		padding:15px;
+		font-size:16px;
+		color:white;
+		width:90%;
+		top:0px;
+	}
+
+	.click_announcement:hover
+	{
+		-webkit-transition:250ms;
+		display:block;
+		background:#ba0e0e;
+		padding:15px;
+		font-size:16px;
+		color:white;	
+		width:90%;
+	}
+	
+	.services
+	{
+		height:1500px;
+	}
+	
+	.container
+	{
+		height:3000px;
+	}
+	
+	
+}
+
+@media screen and (max-width:470px)
+{
+	.hidden_mvp
+	{
+		padding:12px;
+		font:14px Century Gothic;
+		color:white;
+		text-align:center;
+		display:block;
+	}
+	
+	.inquiry_header
+	{
+		display:none;
+	}
+	
+	
+	.label_3_1
+	{
+		font-size:20px;
+		text-align:center;
+	}
+	
+	
+}
+
+@media screen and (max-width:417px)
+{
+	
+	.fbicon
+	{
+		display:block;
+		border-radius:40px;
+		height:40px;
+		width:40px;
+		color:#000000;
+		background:white;
+		font:bold 40px Century Gothic;
+		text-align:center;
+	}
+
+	.divider
+	{
+		display:none;
+	}
+
+	.socialmedia
+	{
+		position:absolute;
+		bottom:25px;
+		margin-left:40%;
+		//border-top:solid 1px #eee;
+		padding:10px;
+	}
+	
+	.footer_bottom_text
+	{
+		height:100px;
+	}
+	
+	
+	.event_pic
+	{
+		margin-left:0px;
+		width:100%;
+	}
+	
+	.event_pic:hover
+	{
+		margin-left:0px;
+		width:100%;
+	}
+
+	.label_1
+	{
+		font-size:16px;
+	}
+	
+	
+}
+
+@media screen and (max-width:340px)
+{
+	.mvp_title
+	{
+		font-size:14px;
+	}
+	
+	.mvp
+	{
+		font-size:10px;
+	}
+	
+	.text1
+	{
+		font-size:25px;
+	}
+	
+	.text2
+	{
+		font-size:30px;
+	}
+	
+	.tcu
+	{
+		font-size:9px;
+	}
+	
+	.text2_small,.text1_small
+	{
+		font-size:10px;
+	}
+	
+	.logo_1
+	{
+		height:40px;
+		width:40px;
+		margin:1%;
+		margin-right:1.%;
+		margin-top:5px;
+	}
+	
+	.section_2_2
+	{
+		height:650px;
+	}
+	
+	.label_date, .label_day, .label_event
+	{
+		font-size:12px;
+		padding:5px;
+	}
+	
+}
+
+@media print
+{
+	nav, footer, embed
+	{
+		display:none;
+		margin:0;
+		padding:0;
+	}
+	
+	.btn1, .red_class, .red_class2, .inquiry_header, .label_6_1
+	{
+		opacity:0;
+		margin:0;
+		padding:0;
+	}
+	
+	.text1, .text2
+	{
+		font-size:30px;
+	}
+	
+	.label_3_1, section, .container3
+	{
+		margin:0;
+		padding:0;
+	}
+}
